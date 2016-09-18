@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { removeNgStyles, createNewHosts, createInputTransfer } from '@angularclass/hmr';
+import { Players } from './home/players.component.ts';
 
 /*
  * Platform and Environment providers/directives/pipes
@@ -41,7 +42,8 @@ type StoreType = {
     About,
     Home,
     NoContent,
-    XLarge
+    XLarge,
+    Players
   ],
   imports: [ // import Angular's modules
     BrowserModule,
